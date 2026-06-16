@@ -1,205 +1,177 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Flask-3.0+-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/Docker-ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=for-the-badge" alt="Platform">
 </p>
 
-<h1 align="center">AI Strategy Factory</h1>
+<h1 align="center">AI Consult — AI Strategy Factory</h1>
 
 <p align="center">
-  <strong>Generate comprehensive AI strategy deliverables for any company in minutes, not weeks.</strong>
+  <strong>Gere um pacote completo de estratégia de IA para qualquer empresa em minutos, não semanas.</strong>
 </p>
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-features">Features</a> •
-  <a href="#-how-it-works">How It Works</a> •
-  <a href="#-deliverables">Deliverables</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-usage">Usage</a>
+  <a href="#-como-funciona">Como Funciona</a> •
+  <a href="#-entregáveis">Entregáveis</a> •
+  <a href="#-instalação">Instalação</a> •
+  <a href="#-uso">Uso</a> •
+  <a href="#-curso-inemaclub">Curso INEMA.CLUB</a>
 </p>
 
 ---
 
-## What Is This?
+## O Que É Isso?
 
-Enter a company name → Get a complete AI strategy package:
+Digite o nome de uma empresa → receba um pacote completo de estratégia de IA:
 
-| Output | Description |
-|--------|-------------|
-| **15 Strategic Documents** | Tech inventory, pain points, roadmaps, ROI analysis |
-| **Architecture Diagrams** | Auto-generated Mermaid visualizations |
-| **Executive Presentations** | PowerPoint decks ready for stakeholders |
-| **Implementation Reports** | Detailed Word documents with recommendations |
+| Saída | Descrição |
+|-------|-----------|
+| **15 Documentos Estratégicos** | Inventário tech, pontos de dor, roadmaps, análise de ROI |
+| **Diagramas de Arquitetura** | Visualizações Mermaid geradas automaticamente |
+| **Apresentações Executivas** | Decks PowerPoint prontos para stakeholders |
+| **Relatórios de Implementação** | Documentos Word detalhados com recomendações |
 
-**Cost per analysis: ~$0.05-0.50** using Perplexity + Gemini APIs
+**Custo por análise: ~$0,05–0,50** usando APIs Perplexity + Gemini
+
+**Todos os documentos em Português Brasileiro.**
 
 ---
 
-## Complete Beginner? Start Here
+## Iniciante? Comece Aqui
 
 <details>
-<summary><strong>Click here if you're new to coding or feeling intimidated</strong></summary>
+<summary><strong>Clique aqui se é sua primeira vez ou está intimidado</strong></summary>
 
-### Don't Panic! Here's What This Actually Does
+### Não entre em pânico! Veja o que isso faz
 
-This tool is like having a consulting firm in a box. You type in a company name (like "Nike" or "your local bakery"), and it automatically:
+Esta ferramenta é como ter uma consultoria numa caixa. Você digita o nome de uma empresa (ex: "Natura" ou "sua padaria local"), e ela automaticamente:
 
-1. **Researches** the company using AI (like having a research assistant)
-2. **Writes** 15 professional strategy documents (like having a consultant)
-3. **Creates** PowerPoint presentations and Word docs (like having an analyst)
+1. **Pesquisa** a empresa usando IA (como ter um assistente de pesquisa)
+2. **Escreve** 15 documentos estratégicos profissionais (como ter um consultor)
+3. **Cria** apresentações PowerPoint e documentos Word (como ter um analista)
 
-**That's it.** You don't need to understand the code. You just need to run it.
+**É isso.** Você não precisa entender o código. Só precisa executá-lo.
 
-### What You Need (The Actual Requirements)
+### O Que Você Precisa
 
-| What | Why | How Long to Get |
-|------|-----|-----------------|
-| A computer | Windows, Mac, or Linux all work | You probably have this |
-| Python installed | The programming language this runs on | 5 minutes |
-| Two free API keys | To use Perplexity and Gemini AI | 10 minutes |
-| Claude Code (optional) | Makes everything 10x easier | 2 minutes |
+| O Quê | Por Quê | Tempo para Obter |
+|-------|---------|-----------------|
+| Um computador | Windows, Mac ou Linux funcionam | Você provavelmente já tem |
+| Python instalado | A linguagem de programação usada | 5 minutos |
+| Duas chaves de API gratuitas | Para usar Perplexity e Gemini AI | 10 minutos |
+| Claude Code (opcional) | Facilita tudo 10x | 2 minutos |
 
-### The Absolute Easiest Way (Using Claude Code)
+### A Forma Mais Fácil (Usando Claude Code)
 
-If you have [Claude Code](https://claude.ai/code) installed, you literally just need to say:
+Se você tem [Claude Code](https://claude.ai/code) instalado, basta dizer:
 
 ```
-Clone the repo at https://github.com/promptadvisers/ai-strategy-factory and help me set it up and run it
+Clone o repositório em https://github.com/MonicaMSal/AI-CONSULT e me ajude a configurar e executar
 ```
 
-Claude Code will:
-- Download all the files
-- Install everything needed
-- Help you get API keys
-- Run the app for you
+O Claude Code vai:
+- Baixar todos os arquivos
+- Instalar tudo necessário
+- Ajudar a obter as chaves de API
+- Executar o app para você
 
-**That's the whole process if you use Claude Code.**
+### Passo a Passo para Iniciantes Completos (Sem Claude Code)
 
-### Step-by-Step for Complete Beginners (Without Claude Code)
+#### Passo 1: Instalar Python (5 minutos)
 
-#### Step 1: Install Python (5 minutes)
+**No Mac:**
+1. Abra o Terminal (pesquise "Terminal" no Spotlight)
+2. Digite: `python3 --version`
+3. Se aparecer um número de versão, pronto!
+4. Caso contrário, acesse [python.org/downloads](https://python.org/downloads)
 
-**On Mac:**
-1. Open Terminal (search "Terminal" in Spotlight)
-2. Type: `python3 --version`
-3. If you see a version number, you're done!
-4. If not, go to [python.org/downloads](https://python.org/downloads) and download
+**No Windows:**
+1. Acesse [python.org/downloads](https://python.org/downloads)
+2. Baixe e execute o instalador
+3. **IMPORTANTE:** Marque a opção "Add Python to PATH"
+4. Clique em Install
 
-**On Windows:**
-1. Go to [python.org/downloads](https://python.org/downloads)
-2. Download and run the installer
-3. **IMPORTANT:** Check the box that says "Add Python to PATH"
-4. Click Install
+#### Passo 2: Obter Suas Chaves de API (10 minutos)
 
-#### Step 2: Get Your API Keys (10 minutes)
+**Chave Perplexity:**
+1. Acesse [perplexity.ai](https://perplexity.ai)
+2. Crie uma conta (gratuito)
+3. Vá em Settings → API
+4. Clique em "Generate API Key"
+5. Copie em lugar seguro (parece com `pplx-abc123...`)
 
-You need two free API keys:
+**Chave Gemini:**
+1. Acesse [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+2. Entre com o Google
+3. Clique em "Create API Key"
+4. Copie em lugar seguro (parece com `AIzaSy...`)
 
-**Perplexity API Key:**
-1. Go to [perplexity.ai](https://perplexity.ai)
-2. Create an account (free)
-3. Go to Settings → API
-4. Click "Generate API Key"
-5. Copy it somewhere safe (looks like `pplx-abc123...`)
+#### Passo 3: Baixar Este Projeto (2 minutos)
 
-**Gemini API Key:**
-1. Go to [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-2. Sign in with Google
-3. Click "Create API Key"
-4. Copy it somewhere safe (looks like `AIzaSy...`)
+**Opção A — Baixar ZIP (mais fácil):**
+1. Clique no botão verde "Code" no topo desta página
+2. Clique em "Download ZIP"
+3. Descompacte em algum lugar acessível (ex: Desktop)
 
-#### Step 3: Download This Project (2 minutes)
-
-**Option A - Download ZIP (easiest):**
-1. Click the green "Code" button at the top of this page
-2. Click "Download ZIP"
-3. Unzip the folder somewhere you can find it (like Desktop)
-
-**Option B - Use Git:**
+**Opção B — Usar Git:**
 ```bash
-git clone https://github.com/promptadvisers/ai-strategy-factory.git
+git clone https://github.com/MonicaMSal/AI-CONSULT.git
 ```
 
-#### Step 4: Set Up the Project (3 minutes)
+#### Passo 4: Configurar o Projeto (3 minutos)
 
-1. Open Terminal (Mac) or Command Prompt (Windows)
+1. Abra Terminal (Mac) ou Prompt de Comando (Windows)
 
-2. Navigate to the folder:
+2. Navegue até a pasta:
    ```bash
-   cd Desktop/ai-strategy-factory   # or wherever you put it
+   cd Desktop/AI-CONSULT   # ou onde você colocou
    ```
 
-3. Run the setup:
+3. Execute o setup:
    ```bash
-   python setup.py    # On Windows
-   python3 setup.py   # On Mac
+   python setup.py    # Windows
+   python3 setup.py   # Mac
    ```
 
-4. Add your API keys:
-   - Open the `.env` file in any text editor
-   - Replace the placeholder text with your actual keys
-   - Save the file
+4. Adicione suas chaves de API:
+   - Abra o arquivo `.env` em qualquer editor de texto
+   - Substitua o texto placeholder pelas suas chaves reais
+   - Salve o arquivo
 
-#### Step 5: Run It! (1 minute)
+#### Passo 5: Execute! (1 minuto)
 
 ```bash
 python -m strategy_factory.webapp    # Windows
 python3 -m strategy_factory.webapp   # Mac
 ```
 
-Your browser will open to **http://localhost:8888**
+Seu navegador abrirá em **http://localhost:8888**
 
-Type in any company name and click "Start Analysis"!
+Digite qualquer nome de empresa e clique em "Start Analysis"!
 
-### Example Commands to Give Claude Code
-
-Once you have the project set up, here are things you can ask Claude Code to do:
-
-```
-"Run an AI strategy analysis for Tesla"
-```
-
-```
-"Generate a comprehensive strategy report for my company [describe your company]"
-```
-
-```
-"Start the web interface so I can analyze multiple companies"
-```
-
-```
-"What companies have I already analyzed?"
-```
-
-```
-"Help me understand the ROI calculator output for Stripe"
-```
-
-### What If Something Goes Wrong?
+### O Que Fazer se Algo Der Errado?
 
 **"Python not found"**
-- Make sure Python is installed (Step 1)
-- On Windows, make sure you checked "Add Python to PATH" during install
-- Try restarting your terminal/command prompt
+- Certifique-se de que o Python está instalado
+- No Windows, verifique se marcou "Add Python to PATH"
+- Tente reiniciar o terminal
 
 **"API key error"**
-- Double-check your `.env` file has the right keys
-- Make sure there are no extra spaces
-- Make sure the keys are on their own lines
+- Verifique se o arquivo `.env` tem as chaves corretas
+- Certifique-se de que não há espaços extras
+- Verifique se as chaves estão em linhas separadas
 
 **"Module not found"**
-- Run `pip install -r requirements.txt` again
-- Make sure you're in the right folder
+- Execute `pip install -r requirements.txt` novamente
+- Certifique-se de estar na pasta correta
 
-**Still stuck?**
-- Open an issue on GitHub
-- Or ask Claude Code: "I'm getting this error: [paste error]. Help me fix it."
-
-### You've Got This!
-
-Seriously, the hardest part is getting the API keys. Once those are set up, it's just clicking buttons. And if you have Claude Code, it can literally do all of this for you.
+**Ainda travado?**
+- Abra uma issue no GitHub
+- Ou pergunte ao Claude Code: "Estou recebendo este erro: [cole o erro]. Me ajude a corrigir."
 
 </details>
 
@@ -207,360 +179,403 @@ Seriously, the hardest part is getting the API keys. Once those are set up, it's
 
 ## Quick Start
 
-### Option 1: Docker (Recommended for VPS)
+### Opção 1: Docker (Recomendado para VPS)
 
 ```bash
-# Clone the repository
-git clone https://github.com/inematds/AI-CONSULT.git
+# Clone o repositório
+git clone https://github.com/MonicaMSal/AI-CONSULT.git
 cd AI-CONSULT
 
-# Create .env file with your API keys
+# Crie o arquivo .env com suas chaves de API
 cp .env.example .env
-# Edit .env with your actual keys
+# Edite .env com suas chaves reais
 
-# Build and run with Docker Compose
+# Suba com Docker Compose
 docker-compose up -d
 
-# View logs
+# Acompanhe os logs
 docker-compose logs -f
 ```
 
-Open **http://your-server-ip:8888** or **http://localhost:8888**
+Acesse **http://ip-do-servidor:8888** ou **http://localhost:8888**
 
 ```bash
-# Stop the application
+# Parar a aplicação
 docker-compose down
 
-# Rebuild after code changes
+# Rebuildar após mudanças
 docker-compose up -d --build
 ```
 
-### Option 2: Claude Code (Easiest)
+### Opção 2: Claude Code (Mais Fácil)
 
-If you have [Claude Code](https://claude.ai/code):
+Se você tem [Claude Code](https://claude.ai/code):
 
 ```
-Just say: "Clone and run the AI Strategy Factory for me"
+Só diga: "Clone e execute o AI Consult para mim"
 ```
 
-### Option 3: Manual Setup
+### Opção 3: Setup Manual
 
 ```bash
-# Clone the repository
-git clone https://github.com/inematds/AI-CONSULT.git
+# Clone o repositório
+git clone https://github.com/MonicaMSal/AI-CONSULT.git
 cd AI-CONSULT
 
-# Run the setup script (works on Windows, macOS, Linux)
+# Execute o script de setup (funciona no Windows, macOS, Linux)
 python setup.py
 
-# Add your API keys to .env file
-# Then run the web app
+# Adicione suas chaves de API ao arquivo .env
+# Depois execute o web app
 python -m strategy_factory.webapp
 ```
 
-Open **http://localhost:8888** and enter a company name!
+Acesse **http://localhost:8888** e insira o nome de uma empresa!
 
 ---
 
 ## Features
 
-### Research Engine
-- **Perplexity AI** for real-time company intelligence
-- 9-18 targeted queries per analysis
-- Automatic source aggregation
+### Motor de Pesquisa
+- **Perplexity AI** para inteligência em tempo real sobre empresas
+- 9–18 queries por análise
+- Agregação automática de fontes
 
-### Document Synthesis
-- **Google Gemini 2.5 Flash** for document generation
-- 15 specialized deliverable templates
-- Consistent consulting-quality output
+### Síntese de Documentos
+- **Google Gemini 2.5 Flash** para geração de documentos
+- 15 templates de entregáveis especializados
+- Output consistente com qualidade de consultoria
+- Todos os documentos em **Português Brasileiro**
 
-### Export Options
-- Markdown documents
-- PowerPoint presentations (PPTX)
-- Word reports (DOCX)
-- Architecture diagrams (PNG)
+### Opções de Export
+- Documentos Markdown
+- Apresentações PowerPoint (PPTX)
+- Relatórios Word (DOCX)
+- Diagramas de arquitetura (PNG + .mmd editável)
 
-### User Experience
-- Beautiful web interface
-- Real-time progress tracking
-- Resume interrupted analyses
-- Cross-platform support
+### Experiência do Usuário
+- Interface web moderna
+- Acompanhamento de progresso em tempo real
+- **Continuar análises interrompidas** com seleção de empresa
+- **Cancelar análises** em andamento
+- Diretórios com timestamp para múltiplas versões da mesma empresa
+- Páginas de resultados públicas (sem necessidade de login para compartilhar)
+- Suporte multiplataforma
 
 ---
 
-## How It Works
+## Como Funciona
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                         USER INPUT                                   │
-│                    "Analyze Stripe"                                  │
+│                         ENTRADA DO USUÁRIO                           │
+│                    "Analisar Stripe"                                 │
 └─────────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    PHASE 1: RESEARCH                                 │
+│                    FASE 1: PESQUISA                                  │
 │                                                                      │
-│   Perplexity AI queries:                                            │
-│   • Company overview & business model                               │
-│   • Technology stack & infrastructure                               │
-│   • Industry landscape & competitors                                │
-│   • AI/ML current initiatives                                       │
-│   • Pain points & challenges                                        │
-│   • Strategic priorities                                            │
+│   Queries Perplexity AI:                                            │
+│   • Visão geral e modelo de negócios                                │
+│   • Stack tecnológico e infraestrutura                              │
+│   • Cenário da indústria e concorrentes                             │
+│   • Iniciativas atuais de IA/ML                                     │
+│   • Pontos de dor e desafios                                        │
+│   • Prioridades estratégicas                                        │
 │                                                                      │
-│   Output: Comprehensive research JSON                               │
+│   Saída: JSON de pesquisa abrangente                                │
 └─────────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    PHASE 2: SYNTHESIS                                │
+│                    FASE 2: SÍNTESE                                   │
 │                                                                      │
-│   Google Gemini generates:                                          │
-│   • 15 markdown deliverables                                        │
-│   • Mermaid diagram code                                            │
-│   • Structured recommendations                                      │
+│   Google Gemini gera:                                               │
+│   • 15 entregáveis em markdown                                      │
+│   • Código para diagramas Mermaid                                   │
+│   • Recomendações estruturadas                                      │
 │                                                                      │
-│   Output: Strategy documents                                        │
+│   Saída: Documentos de estratégia                                   │
 └─────────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    PHASE 3: GENERATION                               │
+│                    FASE 3: GERAÇÃO                                   │
 │                                                                      │
-│   Final outputs:                                                    │
-│   • 2 PowerPoint presentations                                      │
-│   • 2 Word documents                                                │
-│   • 5+ architecture diagrams                                        │
+│   Outputs finais:                                                   │
+│   • 2 apresentações PowerPoint                                      │
+│   • 2 documentos Word                                               │
+│   • 5+ diagramas de arquitetura (PNG + .mmd)                       │
 │                                                                      │
-│   Output: Executive-ready deliverables                              │
+│   Saída: Entregáveis prontos para executivos                        │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Deliverables
+## Entregáveis
 
-### Strategic Assessment
-| # | Document | Description |
-|:-:|----------|-------------|
-| 1 | **Tech Inventory** | Current technology stack assessment |
-| 2 | **Pain Points** | Department-by-department analysis |
-| 3 | **Maturity Assessment** | AI readiness scoring (1-5 scale) |
-| 4 | **Mermaid Diagrams** | Current & future state architecture |
+### Avaliação Estratégica
+| # | Documento | Descrição |
+|:-:|-----------|-----------|
+| 1 | **Inventário Tecnológico** | Avaliação do stack atual |
+| 2 | **Pontos de Dor** | Análise por departamento |
+| 3 | **Avaliação de Maturidade** | Score de prontidão para IA (1–5) |
+| 4 | **Diagramas Mermaid** | Arquitetura atual e futura |
 
-### Implementation Planning
-| # | Document | Description |
-|:-:|----------|-------------|
-| 5 | **Roadmap** | 30/60/90/180/360 day implementation plan |
-| 6 | **Quick Wins** | Low-effort, high-impact opportunities |
-| 7 | **Vendor Comparison** | Build vs buy framework |
-| 8 | **License Consolidation** | Software optimization recommendations |
-| 9 | **ROI Calculator** | Cost-benefit analysis with projections |
+### Planejamento de Implementação
+| # | Documento | Descrição |
+|:-:|-----------|-----------|
+| 5 | **Roadmap** | Plano 30/60/90/180/360 dias |
+| 6 | **Quick Wins** | Oportunidades de alto impacto, baixo esforço |
+| 7 | **Comparação de Fornecedores** | Framework build vs buy |
+| 8 | **Consolidação de Licenças** | Recomendações de otimização de software |
+| 9 | **Calculadora de ROI** | Análise custo-benefício com projeções |
 
-### Governance & Policy
-| # | Document | Description |
-|:-:|----------|-------------|
-| 10 | **AI Policy** | Acceptable use policy template |
-| 11 | **Data Governance** | Data management framework |
-| 12 | **Change Management** | Training and adoption playbook |
+### Governança e Política
+| # | Documento | Descrição |
+|:-:|-----------|-----------|
+| 10 | **Política de IA** | Template de política de uso aceitável |
+| 11 | **Governança de Dados** | Framework de gestão de dados |
+| 12 | **Gestão de Mudanças** | Playbook de treinamento e adoção |
 
-### Resources
-| # | Document | Description |
-|:-:|----------|-------------|
-| 13 | **Prompt Library** | Starter prompts by department |
-| 14 | **Use Case Library** | Department-specific AI applications |
-| 15 | **Glossary** | AI terms explained for stakeholders |
+### Recursos
+| # | Documento | Descrição |
+|:-:|-----------|-----------|
+| 13 | **Biblioteca de Prompts** | Prompts iniciais por departamento |
+| 14 | **Biblioteca de Casos de Uso** | Aplicações de IA por departamento |
+| 15 | **Glossário** | Termos de IA explicados para stakeholders |
 
-### Executive Outputs
-| Type | File | Description |
-|------|------|-------------|
-| PPTX | Executive Summary | Board-ready presentation |
-| PPTX | Full Findings | Detailed analysis deck |
-| DOCX | Strategy Report | Comprehensive written report |
-| DOCX | Statement of Work | Implementation proposal |
+### Outputs Executivos
+| Tipo | Arquivo | Descrição |
+|------|---------|-----------|
+| PPTX | Executive Summary | Apresentação pronta para board |
+| PPTX | Full Findings | Deck de análise detalhada |
+| DOCX | Strategy Report | Relatório escrito completo |
+| DOCX | Statement of Work | Proposta de implementação |
 
 ---
 
-## Installation
+## Instalação
 
-### Prerequisites
+### Pré-requisitos
 
-| Requirement | How to Get |
-|-------------|------------|
+| Requisito | Como Obter |
+|-----------|------------|
 | Python 3.9+ | [python.org](https://www.python.org/downloads/) |
-| Docker (for VPS) | [docker.com/get-docker](https://docs.docker.com/get-docker/) |
-| Perplexity API Key | [perplexity.ai/settings/api](https://www.perplexity.ai/settings/api) |
-| Gemini API Key | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) |
+| Docker (para VPS) | [docker.com/get-docker](https://docs.docker.com/get-docker/) |
+| Chave Perplexity API | [perplexity.ai/settings/api](https://www.perplexity.ai/settings/api) |
+| Chave Gemini API | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) |
 
-### Docker Installation (VPS/Production)
+### Instalação Docker (VPS/Produção)
 
 ```bash
-# 1. Install Docker and Docker Compose on your VPS
+# 1. Instale Docker e Docker Compose na sua VPS
 # Ubuntu/Debian:
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo apt install docker-compose-plugin
 
-# 2. Clone the repository
-git clone https://github.com/inematds/AI-CONSULT.git
+# 2. Clone o repositório
+git clone https://github.com/MonicaMSal/AI-CONSULT.git
 cd AI-CONSULT
 
-# 3. Set up environment
+# 3. Configure o ambiente
 cp .env.example .env
-nano .env  # Add your API keys
+nano .env  # Adicione suas chaves de API
 
-# 4. Run with Docker Compose
+# 4. Suba com Docker Compose
 docker-compose up -d
 
-# 5. Check logs
+# 5. Acompanhe os logs
 docker-compose logs -f ai-consult
 ```
 
-### Manual Installation
+### Instalação Manual
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/inematds/AI-CONSULT.git
+# 1. Clone o repositório
+git clone https://github.com/MonicaMSal/AI-CONSULT.git
 cd AI-CONSULT
 
-# 2. Create virtual environment
+# 2. Crie ambiente virtual
 python3 -m venv venv
 
-# 3. Activate it
+# 3. Ative-o
 source venv/bin/activate        # macOS/Linux
-# OR
+# OU
 .\venv\Scripts\activate         # Windows
 
-# 4. Install dependencies
+# 4. Instale dependências
 pip install -r requirements.txt
 
-# 5. Set up environment
+# 5. Configure o ambiente
 cp .env.example .env
 ```
 
-### Configure API Keys
+### Configure as Chaves de API
 
-Edit `.env` with your keys:
+Edite `.env` com suas chaves:
 
 ```env
 PERPLEXITY_API_KEY=pplx-xxxxxxxxxxxxxxxxxxxx
 GEMINI_API_KEY=AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-### Docker Commands Reference
+### Referência de Comandos Docker
 
 ```bash
-# Start application
+# Iniciar aplicação
 docker-compose up -d
 
-# Stop application
+# Parar aplicação
 docker-compose down
 
-# View logs
+# Ver logs
 docker-compose logs -f
 
-# Rebuild after changes
+# Rebuildar após mudanças
 docker-compose up -d --build
 
-# Access container shell
+# Acessar shell do container
 docker-compose exec ai-consult bash
 
-# Remove all containers and volumes
+# Remover containers e volumes
 docker-compose down -v
 ```
 
 ---
 
-## Usage
+## Uso
 
-### Web Interface (Recommended)
+### Interface Web (Recomendado)
 
 ```bash
 python -m strategy_factory.webapp
 ```
 
-Then open **http://localhost:8888**
+Acesse **http://localhost:8888**
 
-### Command Line
+### Linha de Comando
 
 ```bash
-# Quick analysis (~$0.05, 2-3 minutes)
+# Análise rápida (~$0,05, 2–3 minutos)
 python -m strategy_factory.main run "Stripe"
 
-# With context
+# Com contexto adicional
 python -m strategy_factory.main run "Stripe" --context "B2B payments, fintech"
 
-# Comprehensive analysis (~$0.50, 5-10 minutes)
+# Análise completa (~$0,50, 5–10 minutos)
 python -m strategy_factory.main run "Stripe" --mode comprehensive
 
-# Check status
+# Verificar status
 python -m strategy_factory.main status "Stripe"
 
-# Resume interrupted analysis
+# Continuar análise interrompida
 python -m strategy_factory.main resume "Stripe"
 
-# List all analyses
+# Listar todas as análises
 python -m strategy_factory.main list
 ```
 
 ---
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
-ai-strategy-factory/
-├── strategy_factory/           # Main package
-│   ├── webapp.py              # Flask web application
-│   ├── main.py                # CLI entry point
-│   ├── config.py              # Configuration
-│   ├── models.py              # Data models
-│   ├── progress_tracker.py    # State management
+AI-CONSULT/
+├── strategy_factory/           # Pacote principal
+│   ├── webapp.py              # Aplicação web Flask
+│   ├── server.py              # Servidor alternativo
+│   ├── main.py                # Ponto de entrada CLI
+│   ├── config.py              # Configuração
+│   ├── models.py              # Modelos de dados
+│   ├── progress_tracker.py    # Gerenciamento de estado (com suporte a timestamp)
+│   ├── knowledge_loader.py    # Carregamento de base de conhecimento
+│   ├── temporal.py            # Utilitários de data/tempo
 │   │
-│   ├── research/              # Phase 1: Research
+│   ├── research/              # Fase 1: Pesquisa
 │   │   ├── orchestrator.py
 │   │   ├── perplexity_client.py
 │   │   └── query_templates.py
 │   │
-│   ├── synthesis/             # Phase 2: Synthesis
+│   ├── synthesis/             # Fase 2: Síntese
 │   │   ├── orchestrator.py
 │   │   ├── gemini_client.py
-│   │   └── prompts/           # 15 deliverable prompts
+│   │   └── prompts/           # 15 prompts de entregáveis
 │   │
-│   └── generation/            # Phase 3: Generation
+│   └── generation/            # Fase 3: Geração
 │       ├── orchestrator.py
 │       ├── pptx_generator.py
 │       ├── docx_generator.py
 │       └── mermaid_renderer.py
 │
-├── output/                    # Generated deliverables
-├── docs/                      # Documentation
+├── docs/                      # Site do curso (GitHub Pages)
+│   ├── index.html             # Landing page INEMA.CLUB
+│   └── curso/                 # Trilhas do curso
+│       ├── trilha1/
+│       ├── trilha2/
+│       └── trilha3/
+│
+├── output/                    # Entregáveis gerados
+├── Dockerfile
+├── docker-compose.yml
 ├── requirements.txt
 ├── setup.py
+├── DEPLOY.md                  # Guia completo de deploy em VPS
+├── DELIVERABLES.md            # Descrição detalhada dos 19 entregáveis
 └── README.md
 ```
 
 ---
 
-## API Costs
+## Estrutura de Output
 
-| API | Model | Cost | Use Case |
-|-----|-------|------|----------|
-| Perplexity | sonar | $0.001/1K tokens | Quick research |
-| Perplexity | sonar-pro | $0.003/1K tokens | Deep research |
-| Gemini | 2.5-flash | $0.075/1M input | Document synthesis |
+```
+output/
+└── nome-da-empresa_20240615_143022/   # Diretório com timestamp
+    ├── markdown/              # 15 arquivos .md
+    ├── presentations/         # 2 arquivos .pptx
+    ├── documents/             # 2 arquivos .docx
+    ├── mermaid_images/        # PNGs + arquivos .mmd editáveis
+    ├── research_cache.json    # Dados brutos da pesquisa
+    └── state.json             # Rastreamento de progresso
+```
 
-**Typical costs:**
-- Quick mode: **$0.02-0.05** per company
-- Comprehensive mode: **$0.30-0.80** per company
+---
+
+## Custos de API
+
+| API | Modelo | Custo | Uso |
+|-----|--------|-------|-----|
+| Perplexity | sonar | $0,001/1K tokens | Pesquisa rápida |
+| Perplexity | sonar-pro | $0,003/1K tokens | Pesquisa aprofundada |
+| Gemini | 2.5-flash | $0,075/1M input | Síntese de documentos |
+
+**Custos típicos:**
+- Modo rápido: **$0,02–0,05** por empresa
+- Modo completo: **$0,30–0,80** por empresa
+
+---
+
+## Curso INEMA.CLUB
+
+Este repositório inclui um site de curso completo em **docs/**, servido via GitHub Pages.
+
+O curso cobre o uso do AI Strategy Factory em formato didático PT-BR, com:
+- **3 trilhas** de aprendizado
+- Landing page com apresentação do método
+- Módulos práticos com exemplos reais
 
 ---
 
 ## Troubleshooting
 
 <details>
-<summary><strong>Port already in use</strong></summary>
+<summary><strong>Porta já em uso</strong></summary>
 
-The app automatically finds an available port. Or specify one:
+O app encontra automaticamente uma porta disponível. Ou especifique uma:
 
 ```bash
 python -m strategy_factory.webapp --port 9000
@@ -569,11 +584,11 @@ python -m strategy_factory.webapp --port 9000
 </details>
 
 <details>
-<summary><strong>API key errors</strong></summary>
+<summary><strong>Erros de chave de API</strong></summary>
 
-1. Ensure `.env` file exists in project root
-2. Check keys are correct (no extra spaces)
-3. Verify API accounts have credits
+1. Certifique-se de que o arquivo `.env` existe na raiz do projeto
+2. Verifique se as chaves estão corretas (sem espaços extras)
+3. Verifique se as contas de API têm créditos
 
 </details>
 
@@ -581,65 +596,65 @@ python -m strategy_factory.webapp --port 9000
 <summary><strong>Module not found</strong></summary>
 
 ```bash
-# Make sure you're in the virtual environment
+# Certifique-se de estar no ambiente virtual
 source venv/bin/activate  # macOS/Linux
 .\venv\Scripts\activate   # Windows
 
-# Reinstall dependencies
+# Reinstale as dependências
 pip install -r requirements.txt
 ```
 
 </details>
 
 <details>
-<summary><strong>Windows-specific issues</strong></summary>
+<summary><strong>Problemas específicos do Windows</strong></summary>
 
-- Use PowerShell or Command Prompt (not Git Bash)
-- May need to run as Administrator
-- Use `python` instead of `python3`
+- Use PowerShell ou Prompt de Comando (não Git Bash)
+- Pode ser necessário executar como Administrador
+- Use `python` em vez de `python3`
 
 </details>
 
 <details>
-<summary><strong>macOS-specific issues</strong></summary>
+<summary><strong>Problemas específicos do macOS</strong></summary>
 
-- Port 5000 is used by AirPlay Receiver (we use 8888 by default)
-- Install Xcode tools: `xcode-select --install`
+- A porta 5000 é usada pelo AirPlay Receiver (usamos 8888 por padrão)
+- Instale as ferramentas Xcode: `xcode-select --install`
 
 </details>
 
 ---
 
-## Contributing
+## Contribuindo
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contribuições são bem-vindas! Veja [CONTRIBUTING.md](CONTRIBUTING.md) para diretrizes.
 
-### Areas for Contribution
+### Áreas para Contribuição
 
-- [ ] Additional LLM providers (OpenAI, Anthropic)
-- [ ] PDF export option
-- [ ] Industry-specific templates
-- [ ] Caching for repeated queries
-- [ ] Batch processing multiple companies
-
----
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
+- [ ] Provedores de LLM adicionais (OpenAI, Anthropic)
+- [ ] Exportação em PDF
+- [ ] Templates específicos por indústria
+- [ ] Cache para queries repetidas
+- [ ] Processamento em lote de múltiplas empresas
 
 ---
 
-## Acknowledgments
+## Licença
 
-- [Perplexity AI](https://www.perplexity.ai/) - Research capabilities
-- [Google Gemini](https://ai.google.dev/) - Document synthesis
-- [python-pptx](https://python-pptx.readthedocs.io/) - PowerPoint generation
-- [python-docx](https://python-docx.readthedocs.io/) - Word document generation
+MIT License — veja [LICENSE](LICENSE) para detalhes.
+
+---
+
+## Agradecimentos
+
+- [Perplexity AI](https://www.perplexity.ai/) — Capacidades de pesquisa
+- [Google Gemini](https://ai.google.dev/) — Síntese de documentos
+- [python-pptx](https://python-pptx.readthedocs.io/) — Geração de PowerPoint
+- [python-docx](https://python-docx.readthedocs.io/) — Geração de documentos Word
 
 ---
 
 <p align="center">
-  <strong>Built with Claude Code</strong><br>
-  <sub>The AI-powered development assistant</sub>
+  <strong>Construído com Claude Code</strong><br>
+  <sub>O assistente de desenvolvimento com IA</sub>
 </p>

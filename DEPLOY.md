@@ -49,7 +49,7 @@ docker compose version
 cd ~
 
 # Clonar projeto
-git clone https://github.com/inematds/AI-CONSULT.git
+git clone https://github.com/MonicaMSal/AI-CONSULT.git
 cd AI-CONSULT
 ```
 
@@ -378,5 +378,5 @@ systemctl start fail2ban
 
 Em caso de problemas:
 1. Verificar logs: `docker compose logs -f`
-2. Consultar issues no GitHub: https://github.com/inematds/AI-CONSULT/issues
+2. Consultar issues no GitHub: https://github.com/MonicaMSal/AI-CONSULT/issues
 3. Revisar documentação: README.md e CLAUDE.md
